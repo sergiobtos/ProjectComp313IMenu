@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <title>iMenu - Home</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header">
+        <h1 id="headerGreeting"></h1>
+        <p>PLEASE SELECT FROM OUR MENU</p>
+        <div>
+          <label>
+            <input type="text" id="searchTbx" />
+          </label>
+        </div>
+      </div>
+      <div class="position-absolute top-40 start-50 translate-middle">
+        <button
+          id="burgerBtn"
+          class="btn-header"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Burger"
+        >
+          <img src="https://img.icons8.com/doodle/48/000000/hamburger.png" />
+        </button>
+        <button
+          id="pizzaBtn"
+          class="btn-header"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Pizza"
+        >
+          <img src="https://img.icons8.com/doodle/48/000000/pizza--v1.png" />
+        </button>
+        <button
+          id="hotDogBtn"
+          class="btn-header"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Hot-dog"
+        >
+          <img src="https://img.icons8.com/doodle/48/000000/hot-dog.png" />
+        </button>
+        <button
+          id="drinksBtn"
+          class="btn-header"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Drinks"
+        >
+          <img src="https://img.icons8.com/doodle/48/000000/lemonade.png" />
+        </button>
+      </div>
+    </header>
+    <!-- Main -->
+    <br />
+    <br />
+    <br />
+    <main>
+      <!-- Cards -->
+      <div class="main-container">
+        <div class="row">
+          <div class="col">
+            <div class="card" id="card1" style="width: 18rem">
+              <img src="./images/image1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title" id="card-title1"></h5>
+                <h6
+                  class="card-subtitle mb-2 text-muted"
+                  id="card-subtitle1"
+                ></h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="text-center">
+                  <a class="btn btn-primary" id="orderBtn1">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="card2" style="width: 18rem">
+              <img src="./images/image1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title" id="card-title2"></h5>
+                <h6
+                  class="card-subtitle mb-2 text-muted"
+                  id="card-subtitle2"
+                ></h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="text-center">
+                  <a class="btn btn-primary" id="orderBtn2">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Floating button -->
+      <a href="checkout.html" class="float">
+        <p class="my-float" id="my-float">0</p>
+      </a>
+    </main>
+    <!-- Footer -->
+    <div class="push-footer"></div>
+    <footer>
+      <br />
+      Copyright© 1995-2021 group-3. All rights reserved.
+      <br />
+      <br />
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

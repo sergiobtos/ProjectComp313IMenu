@@ -1,0 +1,135 @@
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: auto;
+  background: white;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #ff7b54;
+  color: white;
+  font-size: 30px;
+}
+
+/* Style the buttons */
+.btn-header {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #ffd56b;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Style the buttons on mouse-over */
+.btn-header:hover {
+  background-color: #ffb26b;
+  color: white;
+}
+
+.btn-header:active {
+  background-color: #ffb26b;
+  color: white;
+}
+
+.btn-header:focus {
+  background-color: #ffb26b;
+  color: white;
+}
+
+.btn,
+.btn-primary {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #939b62;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: #ffb26b;
+  color: white;
+}
+
+.btn-primary:active {
+  background-color: #ffb26b;
+  color: white;
+}
+
+.btn-primary:focus {
+  background-color: #ffb26b;
+  color: white;
+}
+/* Style the footer */
+footer {
+  position: static;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: #ff7b54;
+  color: white;
+  text-align: center;
+}
+
+.push-footer {
+  height: 100px;
+}
+
+/* Search */
+label {
+  width: 100%;
+  max-width: 300px;
+}
+input {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  background-color: white;
+  border: 2px solid black;
+  color: #111;
+  font-size: 15px;
+  box-shadow: 3px 1px 0px 2px, 0px -1px 0px 2px rgba(0, 0, 0, 0.62);
+  height: 58px;
+  transform: skew(-3deg, 1deg);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Href tag */
+a {
+  color: #939b62;
+}
+a:link {
+  text-decoration: none;
+}
+
+/* Main body part */
+.main-container {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+/* Floating button  */
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #ff7b54;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #939b62;
+}
+
+.my-float {
+  margin-top: 20px;
+}

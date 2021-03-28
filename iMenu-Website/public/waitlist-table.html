@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/waitlist-table.css" />
+
+    <title>iMenu - Waitlist Table</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header">
+        <h1>WAITLIST TABLE</h1>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <br />
+    <br />
+    <br />
+    <main>
+      <div class="container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td><p id="demo1"></p></td>
+              <td>
+                <button type="button" class="btn btn-danger" id="delete1Btn">
+                  Delete
+                </button>
+                <button type="button" class="btn btn-success" id="assigned1Btn">
+                  Assigned
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td><p id="demo2"></p></td>
+              <td>
+                <button type="button" class="btn btn-danger" id="delete2Btn">
+                  Delete
+                </button>
+                <button type="button" class="btn btn-success" id="assigned2Btn">
+                  Assigned
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td><p id="demo3"></p></td>
+              <td>
+                <button type="button" class="btn btn-danger" id="delete3Btn">
+                  Delete
+                </button>
+                <button type="button" class="btn btn-success" id="assigned3Btn">
+                  Assigned
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="text-center">
+          <a href="dashboard.html" class="btn btn-primary">Go back</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <div class="push-footer"></div>
+    <footer>
+      <br />
+      Copyright© 1995-2021 group-3. All rights reserved.
+      <br />
+      <br />
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS -->
+    <script type="module" src="./js/waitlist-table.js"></script>
+  </body>
+</html>
